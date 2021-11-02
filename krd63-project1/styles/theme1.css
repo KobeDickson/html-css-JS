@@ -1,0 +1,38 @@
+html{
+    font-family: georgia;
+    text-align: center;
+    color: #fff9f9;
+  background-image: linear-gradient(to right, #557A95 , #B1A296, #557A95);
+}
+
+body{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Removes the bullet from my unordered lists*/
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*Takes the underline off of links and colors it white*/
+a{
+    color: #fff9f9;
+    text-decoration: none;
+}
+
+/*These next two are for designing my nav bar*/
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+list-style-type: none;
+padding: 10px;
+margin: 10px;
+border-style: solid;
+}
